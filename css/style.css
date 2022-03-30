@@ -24,8 +24,8 @@
 .thumb .hoveringtext {
   visibility: hidden;
   width: 200px;
-  background-color:#fff;
-  color: black;
+  background-color:black;
+  color: #fff;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -1061,6 +1061,8 @@ h3 {
 /* line 32, ../../Arafath/CL/December/236. Event-02/HTML/scss/_header.scss */
 .header-area .main-header-area .logo-img {
   text-align: center;
+  width: 100px;
+  
 }
 
 @media (max-width: 767px) {
@@ -2447,7 +2449,7 @@ h3 {
   transform: translateX(-50%);
   content: '';
   background: rgba(255, 255, 255, 0.2);
-  height: 73%;
+  height: 89%;
   width: 1px;
   top: 0;
   bottom: 0;
@@ -2458,7 +2460,7 @@ h3 {
   .program_details_area .program_detail_wrap::before {
     left: 13px;
     transform: translateX(0);
-    height: 75%;
+    height: 89%;
   }
 }
 
